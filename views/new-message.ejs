@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>New Message</title>
+
+    <link
+        rel="stylesheet"
+        href="/style.css"
+    >
+</head>
+<body>
+
+<div class="container">
+
+    <h1>
+        Create Message
+    </h1>
+
+    <form
+        action="/new-message"
+        method="POST"
+    >
+
+        <input
+        type="text"
+            name="title"
+            placeholder="Message Title"
+            required
+        >
+
+        <textarea
+            name="message"
+            placeholder="Write your message..."
+            required
+        ></textarea>
+
+        <button type="submit">
+            Publish Message
+        </button>
+
+    </form>
+
+</div>
+
+</body>
+</html>
